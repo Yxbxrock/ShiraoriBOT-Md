@@ -58,7 +58,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     } else throw gokil
 }
 handler.help = ['stiker2', 'sgif']
-handler.tags = ['convert']
+handler.tags = ['sticker']
 handler.command = /^(s(t|k|tic?ker)?2|(s(tic?ker|k|t)?)?gif)$/i
 
 handler.limit = true
