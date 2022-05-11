@@ -11,4 +11,5 @@ handler.help = ['sn']
 handler.tags = ['xp']
 handler.command = /^(sn)$/i
 handler.register = true
+
 module.exports = handler
