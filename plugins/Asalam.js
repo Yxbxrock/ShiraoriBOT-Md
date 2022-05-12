@@ -12,5 +12,7 @@ conn.sendButton( m.chat, caption, `Salam`, 'Waalaikummussalam','warahmatullahi w
        
 handler.customPrefix = /^(assalamualaikum|Salom|salam)/i
 handler.command = new RegExp
+
 module.exports = handler
+
 
