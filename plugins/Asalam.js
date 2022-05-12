@@ -8,7 +8,7 @@ _📚 Baca yang dibawah ya!_
 
 conn.sendButton( m.chat, caption, `Salam`, 'Waalaikummussalam','warahmatullahi wabarokatuh', m)
 
-}
+       }
        
 handler.customPrefix = /^(assalamualaikum|Salom|salam)/i
 handler.command = new RegExp
