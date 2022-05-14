@@ -1,4 +1,4 @@
-const { igdl } = require('../lib/scrape')
+const { instagramdl } = require('@bochilteam/scraper')
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
@@ -22,3 +22,5 @@ handler.command = /^(ig|instagram)$/i
 handler.limit = true
 
 module.exports = handler
+
+const delay = time => new Promise(res => setTimeout(res, time))
