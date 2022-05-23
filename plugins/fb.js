@@ -11,6 +11,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     await conn.sendFile(m.chat, json.data[0].url, '', '© shiraori', m)
   }).catch(_ => _)
 }
+
 handler.help = ['fb'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 
