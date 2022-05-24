@@ -4,8 +4,8 @@ let duit = `*────── 「 DONATE 」 ──────*
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
-├🏧 081351047727 (OVO/Dana/GoPay)
-├📍 https://saweria.co/ilmanhdyt
+├🏧 082365089294 (Telkomsel/Dana)
+├
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 Arigatou!
@@ -20,8 +20,8 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/don
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '🏧 Saweria',
-               url: 'https://saweria.co/ilmanhdyt'
+               displayText: 'instagram',
+               url: 'https://instagram.com/frmndaa.___?utm_medium=copy_link'
              }
 
              },
