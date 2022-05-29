@@ -1,6 +1,7 @@
 let handler = async (m, { conn }) => {
   await conn.sendFile(m.chat, global.API('xteam', '/randomimage/ahegao', { text: © SHIRAORI }, ,APIKEY'), 'ahegao.jpg', teks, m)
 }
+                      
 handler.help = ['ahegao']
 handler.tags = ['nsfw']
 handler.command = /^(ahegao)$/i
