@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
    heum = await fetch(`https://api.lolhuman.xyz/api/random/nsfw/waifu?apikey=Dawnfrostkey`)
    if (!heum) throw json
     json = await heum.buffer()
-   conn.sendButtonImg(m.chat, json, '', `${wm}`, 'Next ➠', `${usedPrefix + command}`, m)
+   con
 }
 handler.help = ['hentai']
 handler.tags = ['nsfw']
